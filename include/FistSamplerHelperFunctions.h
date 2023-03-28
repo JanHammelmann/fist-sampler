@@ -233,6 +233,7 @@ namespace FistSampler {
 
     evtgen->SetRescaleTmu((lround(run_parameters.parameters["rescaleTmu"]) != 0), run_parameters.parameters["edens"]);
     evtgen->SetEVUseSPR((lround(run_parameters.parameters["EVfastmode"]) != 0));
+    evtgen->SetShearCorrection((lround(run_parameters.parameters["use_shear_corrections"]) != 0));
 
     return evtgen;
   }
