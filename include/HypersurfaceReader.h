@@ -209,7 +209,6 @@ namespace FistSampler {
       elem.y = y;
       elem.eta = eta;
 
-      // transform everything to cartesian coordinates
       elem.u[0] = u0;
       elem.u[1] = u1;
       elem.u[2] = u2;
