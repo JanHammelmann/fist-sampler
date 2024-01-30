@@ -197,6 +197,7 @@ namespace FistSampler {
       double u_sqr = u0 * u0 - u1 * u1 - u2 * u2 - u3 * u3;
 
       elem.edens = edens;
+      elem.P = 0.15 * edens;
       elem.rhoB  = rhoB;
 
       elem.T   = T;
